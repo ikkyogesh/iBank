@@ -18,9 +18,15 @@
 		E7413CB417CFAB1200E3E0AD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7413CB317CFAB1200E3E0AD /* Default-568h@2x.png */; };
 		E7413CB717CFAB1200E3E0AD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7413CB517CFAB1200E3E0AD /* MainStoryboard.storyboard */; };
 		E7413CBA17CFAB1200E3E0AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7413CB917CFAB1200E3E0AD /* ViewController.m */; };
+		E7413CC217CFB02F00E3E0AD /* iBankLoanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7413CC117CFB02F00E3E0AD /* iBankLoanViewController.m */; };
+		E7413CC517CFB08600E3E0AD /* iBankInvestmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7413CC417CFB08600E3E0AD /* iBankInvestmentViewController.m */; };
+		E7413CC817CFCC6E00E3E0AD /* iBankSIR.m in Sources */ = {isa = PBXBuildFile; fileRef = E7413CC717CFCC6E00E3E0AD /* iBankSIR.m */; };
+		E776F37117D3A58200F1CC6F /* s57_mzl.fwfkymip.png in Resources */ = {isa = PBXBuildFile; fileRef = E776F37017D3A58200F1CC6F /* s57_mzl.fwfkymip.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E713D0C617D1BFDC00EB45BE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E713D0C817D1C23900EB45BE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E7413C9A17CFAB1100E3E0AD /* iBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7413C9D17CFAB1100E3E0AD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7413C9F17CFAB1100E3E0AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,14 @@
 		E7413CB617CFAB1200E3E0AD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E7413CB817CFAB1200E3E0AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E7413CB917CFAB1200E3E0AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7413CC017CFB02F00E3E0AD /* iBankLoanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBankLoanViewController.h; sourceTree = "<group>"; };
+		E7413CC117CFB02F00E3E0AD /* iBankLoanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBankLoanViewController.m; sourceTree = "<group>"; };
+		E7413CC317CFB08600E3E0AD /* iBankInvestmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBankInvestmentViewController.h; sourceTree = "<group>"; };
+		E7413CC417CFB08600E3E0AD /* iBankInvestmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBankInvestmentViewController.m; sourceTree = "<group>"; };
+		E7413CC617CFCC6E00E3E0AD /* iBankSIR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iBankSIR.h; sourceTree = "<group>"; };
+		E7413CC717CFCC6E00E3E0AD /* iBankSIR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iBankSIR.m; sourceTree = "<group>"; };
+		E776F36E17D3A3F800F1CC6F /* s114_mzl.fwfkymip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s114_mzl.fwfkymip.png; sourceTree = "<group>"; };
+		E776F37017D3A58200F1CC6F /* s57_mzl.fwfkymip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s57_mzl.fwfkymip.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,10 @@
 		E7413C9117CFAB1100E3E0AD = {
 			isa = PBXGroup;
 			children = (
+				E776F37017D3A58200F1CC6F /* s57_mzl.fwfkymip.png */,
+				E776F36E17D3A3F800F1CC6F /* s114_mzl.fwfkymip.png */,
+				E713D0C817D1C23900EB45BE /* Default-568h@2x.png */,
+				E713D0C617D1BFDC00EB45BE /* Default.png */,
 				E7413CA317CFAB1100E3E0AD /* iBank */,
 				E7413C9C17CFAB1100E3E0AD /* Frameworks */,
 				E7413C9B17CFAB1100E3E0AD /* Products */,
@@ -86,6 +104,12 @@
 				E7413CAC17CFAB1200E3E0AD /* AppDelegate.h */,
 				E7413CAD17CFAB1200E3E0AD /* AppDelegate.m */,
 				E7413CB517CFAB1200E3E0AD /* MainStoryboard.storyboard */,
+				E7413CC617CFCC6E00E3E0AD /* iBankSIR.h */,
+				E7413CC717CFCC6E00E3E0AD /* iBankSIR.m */,
+				E7413CC017CFB02F00E3E0AD /* iBankLoanViewController.h */,
+				E7413CC117CFB02F00E3E0AD /* iBankLoanViewController.m */,
+				E7413CC317CFB08600E3E0AD /* iBankInvestmentViewController.h */,
+				E7413CC417CFB08600E3E0AD /* iBankInvestmentViewController.m */,
 				E7413CB817CFAB1200E3E0AD /* ViewController.h */,
 				E7413CB917CFAB1200E3E0AD /* ViewController.m */,
 				E7413CA417CFAB1100E3E0AD /* Supporting Files */,
@@ -163,6 +187,7 @@
 				E7413CB217CFAB1200E3E0AD /* Default@2x.png in Resources */,
 				E7413CB417CFAB1200E3E0AD /* Default-568h@2x.png in Resources */,
 				E7413CB717CFAB1200E3E0AD /* MainStoryboard.storyboard in Resources */,
+				E776F37117D3A58200F1CC6F /* s57_mzl.fwfkymip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +201,9 @@
 				E7413CAA17CFAB1200E3E0AD /* main.m in Sources */,
 				E7413CAE17CFAB1200E3E0AD /* AppDelegate.m in Sources */,
 				E7413CBA17CFAB1200E3E0AD /* ViewController.m in Sources */,
+				E7413CC217CFB02F00E3E0AD /* iBankLoanViewController.m in Sources */,
+				E7413CC517CFB08600E3E0AD /* iBankInvestmentViewController.m in Sources */,
+				E7413CC817CFCC6E00E3E0AD /* iBankSIR.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +326,7 @@
 				E7413CBF17CFAB1200E3E0AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
